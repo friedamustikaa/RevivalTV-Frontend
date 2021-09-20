@@ -1,9 +1,8 @@
-import React from 'react'
-
-export default function index() {
+import Layout from "../components/Layout";
+export default function Home() {
   return (
-    <div>
-      <h1 className="font-bold text-5xl">Hallo</h1>
-    </div>
+    <Layout title="Home">
+      <h1 className="font-xl text-blue-700">This is home page</h1>
+    </Layout>
   )
 }
