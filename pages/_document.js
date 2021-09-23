@@ -13,6 +13,7 @@ class MyDocument extends Document {
         <Html>
             <Head >
                 <Layout/>
+                <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
             </Head>
             <body>
                 <Main />

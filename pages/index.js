@@ -1,21 +1,22 @@
+import Feature from "../components/Feature";
 import Layout from "../components/Layout";
 import Navbar from "../components/Navbar/Navbar";
 
 export default function Home() {
   return (
     <Layout title="Home">
-      <div className="bg-hero w-full h-screen bg-no-repeat bg-cover bg-center">
-        <Navbar />
+      <div className="bg-hero md:bg-hero w-full h-screen bg-no-repeat bg-cover bg-center">
+        {/* <Navbar />
         <div className="container">
           <div className="pt-16 pb-9 px-4">
-            <h1 className="font-poppins text-white text-center font-medium text-3xl">
+            <h1 className=" text-white text-center font-medium text-3xl">
               {"Representing Drone Light"}
             </h1>
             <div className="mt-4">
-              <p className="font-poppins text-white text-center font-light">
+              <p className=" text-white text-center font-light">
                 Look up the sky and beautiful world with simple navigation.
               </p>
-              <p className="font-poppins text-white text-center font-light">
+              <p className=" text-white text-center font-light">
                 Just record anmd get a lot memories to share, lighlty and fast
                 like a lightning
               </p>
@@ -26,8 +27,9 @@ export default function Home() {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
+      <Feature />
     </Layout>
   );
 }
