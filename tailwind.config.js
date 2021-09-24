@@ -30,7 +30,6 @@ module.exports = {
       },
       container: {
         center: true,
-        // padding: '10rem'
       },
       backgroundImage: {
         hero: "url('/assets/Hero.svg')",
