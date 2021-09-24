@@ -2,6 +2,7 @@ import Benefit from "../components/Benefit";
 import Feature from "../components/Feature";
 import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
+import Testimonial from "../components/Testimonial";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
       </div>
       <Feature />
       <Benefit />
+      <Testimonial />
     </Layout>
   );
 }
