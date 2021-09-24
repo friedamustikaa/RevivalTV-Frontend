@@ -1,5 +1,6 @@
 import Benefit from "../components/Benefit";
 import Feature from "../components/Feature";
+import Footer from "../components/Footer";
 import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
 import Product from "../components/Product";
@@ -37,6 +38,7 @@ export default function Home() {
       <Benefit />
       <Product />
       <Testimonial />
+      <Footer />
     </Layout>
   );
 }
