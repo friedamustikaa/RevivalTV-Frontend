@@ -11,7 +11,6 @@ export default function Home() {
     <Layout title="Home">
       <div className="bg-hero md:bg-hero w-full h-screen bg-no-repeat bg-cover bg-center">
         <Navbar />
-        {/* <Navbar />
         <div className="container">
           <div className="pt-16 pb-9 px-4">
             <h1 className=" text-white text-center font-medium text-3xl">
@@ -32,7 +31,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
       <Feature />
       <Benefit />
