@@ -1,3 +1,4 @@
+import Benefit from "../components/Benefit";
 import Feature from "../components/Feature";
 import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
@@ -31,6 +32,7 @@ export default function Home() {
         </div> */}
       </div>
       <Feature />
+      <Benefit />
     </Layout>
   );
 }

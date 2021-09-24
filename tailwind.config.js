@@ -33,7 +33,10 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('/assets/Hero.svg')",
-      }
+      },
+      backgroundColor: {
+        'custommain': '#F7F8FA',
+       },
     },
   },
   variants: {
