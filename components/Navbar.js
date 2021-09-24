@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
     return (
         <div className="bg-transparent">
-            <div className="container 2xl:px-24 2xl:pt-14 xl:pt-14 lg:pt-14 md:pt-14 sm:pt-14">
+            <div className="container 2xl:px-24 2xl:pt-14 xl:pt-14 xl:px-16 lg:pt-14 lg:px-16 md:pt-14 sm:pt-14">
                 <div className="flex">
                     <div className="flex items-center justify-between ">
                         <div className="block md:hidden">
@@ -46,7 +46,7 @@ export default function Navbar() {
                                 <img
                                     src="/assets/logo.svg"
                                     alt=""
-                                    className="2xl:w-14 xl:w-20 lg:w-14 md:w-11 sm:w-11"
+                                    className="2xl:w-14 xl:w-26 lg:w-14 md:w-11 sm:w-11"
                                 />
                                 </a>
                             </Link>
@@ -94,7 +94,7 @@ export default function Navbar() {
                             </Link>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
     );
