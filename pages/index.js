@@ -1,11 +1,12 @@
 import Feature from "../components/Feature";
 import Layout from "../components/Layout";
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
     <Layout title="Home">
       <div className="bg-hero md:bg-hero w-full h-screen bg-no-repeat bg-cover bg-center">
+        <Navbar />
         {/* <Navbar />
         <div className="container">
           <div className="pt-16 pb-9 px-4">
